@@ -67,8 +67,9 @@ def config():
         "version": "1.0"
     }), 200
 
+with app.app_context():
+    db.create_all()
+
 if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
     port = int(os.environ.get("PORT", 5000))  # ✅ Makes Render use its port
     app.run(host='0.0.0.0', port=port)
