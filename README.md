@@ -87,13 +87,13 @@ curl -X POST http://localhost:5000/notes \
 ```
 
 
-## 🪵 Logging
+## Logging
 
 All requests and errors are logged to `app.log`
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 
 ```env
