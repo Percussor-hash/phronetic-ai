@@ -1,1 +1,0 @@
-# phronetic-ai
